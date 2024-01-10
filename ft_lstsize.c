@@ -6,7 +6,7 @@
 /*   By: biyurekl <biyurekl@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/28 20:57:58 by biyurekl          #+#    #+#             */
-/*   Updated: 2023/12/28 21:02:51 by biyurekl         ###   ########.fr       */
+/*   Updated: 2024/01/06 03:17:26 by biyurekl         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,9 @@
 
 int	ft_lstsize(t_list *lst)
 {
-	size_t i = 1;
+	size_t	i;
 
+	i = 1;
 	if (lst == NULL)
 		return (0);
 	while (lst->next != NULL)

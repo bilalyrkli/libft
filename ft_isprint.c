@@ -6,15 +6,15 @@
 /*   By: biyurekl <biyurekl@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/04 15:46:12 by biyurekl          #+#    #+#             */
-/*   Updated: 2023/12/08 17:48:10 by biyurekl         ###   ########.fr       */
+/*   Updated: 2024/01/06 03:12:52 by biyurekl         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int ft_isprint (int a)
+int	ft_isprint(int a)
 {
-    if (a <= 126 && a >= 32)
-        return (1);
-    return (0);
+	if (a <= 126 && a >= 32)
+		return (1);
+	return (0);
 }

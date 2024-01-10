@@ -6,15 +6,15 @@
 /*   By: biyurekl <biyurekl@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/04 14:58:59 by biyurekl          #+#    #+#             */
-/*   Updated: 2023/12/15 23:18:04 by biyurekl         ###   ########.fr       */
+/*   Updated: 2024/01/06 03:12:41 by biyurekl         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int ft_isalnum(int a)
+int	ft_isalnum(int a)
 {
-    if((a <= 122 && a>= 97) || (a <= 90 && a >= 65) || (a >= '0' && a <= '9'))
-        return(1);
-    return (0); 
+	if ((a <= 122 && a >= 97) || (a <= 90 && a >= 65) || (a >= '0' && a <= '9'))
+		return (1);
+	return (0);
 }

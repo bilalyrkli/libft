@@ -6,7 +6,7 @@
 /*   By: biyurekl <biyurekl@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/28 20:31:21 by biyurekl          #+#    #+#             */
-/*   Updated: 2023/12/28 21:02:59 by biyurekl         ###   ########.fr       */
+/*   Updated: 2024/01/06 03:07:24 by biyurekl         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 void	ft_lstadd_back(t_list **lst, t_list *new)
 {
-	t_list *ptr;
+	t_list	*ptr;
 
 	if (*lst == NULL)
 		*lst = new;

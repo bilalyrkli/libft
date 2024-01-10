@@ -6,7 +6,7 @@
 /*   By: biyurekl <biyurekl@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/13 20:53:04 by biyurekl          #+#    #+#             */
-/*   Updated: 2023/12/28 22:40:20 by biyurekl         ###   ########.fr       */
+/*   Updated: 2024/01/06 03:15:42 by biyurekl         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,7 +44,7 @@ static size_t	ft_nb_words(char const *s, char c)
 			nb_words++;
 			while (s[i] && s[i] == c)
 				i++;
-			continue;
+			continue ;
 		}
 		i++;
 	}

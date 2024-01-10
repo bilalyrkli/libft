@@ -6,15 +6,15 @@
 /*   By: biyurekl <biyurekl@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/04 14:17:08 by biyurekl          #+#    #+#             */
-/*   Updated: 2023/12/08 17:48:06 by biyurekl         ###   ########.fr       */
+/*   Updated: 2024/01/06 03:12:49 by biyurekl         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int ft_isdigit (int a)
+int	ft_isdigit(int a)
 {
-    if (a <= 57 && a>= 48)
-        return(1);
-    return(0);
+	if (a <= 57 && a >= 48)
+		return (1);
+	return (0);
 }

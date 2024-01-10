@@ -6,7 +6,7 @@
 /*   By: biyurekl <biyurekl@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/17 15:52:02 by biyurekl          #+#    #+#             */
-/*   Updated: 2023/12/28 21:02:53 by biyurekl         ###   ########.fr       */
+/*   Updated: 2024/01/06 03:14:20 by biyurekl         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,4 +23,3 @@ t_list	*ft_lstnew(void *content)
 	list->next = NULL;
 	return (list);
 }
- 

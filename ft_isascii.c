@@ -6,15 +6,11 @@
 /*   By: biyurekl <biyurekl@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/04 14:59:04 by biyurekl          #+#    #+#             */
-/*   Updated: 2023/12/08 17:48:02 by biyurekl         ###   ########.fr       */
+/*   Updated: 2024/01/06 03:26:33 by biyurekl         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
-
-int ft_ascii(int a)
+int	ft_ascii(int a)
 {
-    if (a <= 127 && a >= 0)
-        return (1);
-    return (0);
+	return (a >= 0 && a <= 127);
 }

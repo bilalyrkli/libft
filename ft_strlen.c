@@ -6,18 +6,18 @@
 /*   By: biyurekl <biyurekl@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/04 15:48:44 by biyurekl          #+#    #+#             */
-/*   Updated: 2023/12/15 21:25:19 by biyurekl         ###   ########.fr       */
+/*   Updated: 2024/01/06 03:16:06 by biyurekl         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-size_t  ft_strlen (const char *s)
+size_t	ft_strlen(const char *s)
 {
-    size_t a;
-    
-    a = 0;
-    while (s[a] != '\0')
-        a++;
-    return (a);
+	size_t	a;
+
+	a = 0;
+	while (s[a] != '\0')
+		a++;
+	return (a);
 }
