@@ -6,7 +6,7 @@
 /*   By: biyurekl <biyurekl@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/06 14:56:12 by biyurekl          #+#    #+#             */
-/*   Updated: 2024/01/10 15:56:36 by biyurekl         ###   ########.fr       */
+/*   Updated: 2024/01/15 18:49:10 by biyurekl         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@
 int					ft_isalpha(int a);
 int					ft_isdigit(int a);
 int					ft_isalnum(int a);
-int					ft_ascii(int a);
+int					ft_isascii(int a);
 int					ft_isprint(int a);
 int					ft_toupper(int c);
 int					ft_tolower(int a);
@@ -54,7 +54,7 @@ char				**ft_malloc_error(char **tab);
 
 size_t				ft_strlen(const char *s);
 size_t				ft_strlcpy(char *dst, const char *src, size_t dstsize);
-size_t				strlcat(char *dst, const char *src, size_t size);
+size_t				ft_strlcat(char *dst, const char *src, size_t size);
 
 // BONUS
 

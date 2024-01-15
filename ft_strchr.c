@@ -6,7 +6,7 @@
 /*   By: biyurekl <biyurekl@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/06 18:18:16 by biyurekl          #+#    #+#             */
-/*   Updated: 2024/01/06 03:09:31 by biyurekl         ###   ########.fr       */
+/*   Updated: 2024/01/15 19:31:46 by biyurekl         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,13 +14,15 @@
 
 char	*ft_strchr(const char *str, int ch)
 {
-	while (*str)
+	int	len;
+
+	len = ft_strlen(str);
+	while (len >= 0)
 	{
-		if (*str == ch)
+		if (*str == (char)ch)
 			return ((char *)str);
 		str++;
+		len--;
 	}
-	if (ch == '\0')
-		return ((char *)str);
-	return (0);
+	return (NULL);
 }

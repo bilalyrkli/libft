@@ -6,7 +6,7 @@
 /*   By: biyurekl <biyurekl@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/09 16:36:41 by biyurekl          #+#    #+#             */
-/*   Updated: 2024/01/06 03:12:39 by biyurekl         ###   ########.fr       */
+/*   Updated: 2024/01/15 20:00:54 by biyurekl         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,19 +14,10 @@
 
 void	*ft_calloc(size_t count, size_t size)
 {
-	size_t	b;
-	void	*p;
+	void	*ret;
 
-	if (count == 0 || size == 0)
-	{
-		count = 1;
-		size = 1;
-	}
-	b = count * size;
-	p = malloc(b);
-	if (p == NULL)
-		return (NULL);
-	else
-		ft_bzero(p, b);
-	return (p);
+	ret = malloc(count * size);
+	if (ret)
+		ft_bzero(ret, count * size);
+	return (ret);
 }

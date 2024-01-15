@@ -6,7 +6,7 @@
 /*   By: biyurekl <biyurekl@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/09 17:15:09 by biyurekl          #+#    #+#             */
-/*   Updated: 2023/12/13 12:57:41 by biyurekl         ###   ########.fr       */
+/*   Updated: 2024/01/15 18:03:49 by biyurekl         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,9 @@ char	*ft_strdup(const char *s)
 
 	i = 0;
 	j = ft_strlen(s);
-	str = (char *)malloc(sizeof(char *) * (j + 1));
+	str = (char *)malloc(sizeof(char) * (j + 1));
+	if (!str)
+		return (NULL);
 	while (i < j)
 	{
 		str[i] = s[i];
